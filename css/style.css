@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -46,9 +48,105 @@ select {
   background: #454f6b;
 }
 
+/* Custom Property */
+:root {
+  --bg-dark: #161616;
+  --white: #fff;
+  --btn-active: #dd0000;
+  --text-black: #161616;
+  --text-gray: #b9b9b9;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
 /* Common CSS Classes */
 .container {
   max-width: 1440px;
-  width: 80%;
+  width: 85%;
   margin-inline: auto;
+}
+
+/** Header */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-dark);
+  border-radius: 0 0 30px 30px;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.header-img {
+  width: 50%;
+  height: 95%;
+}
+
+.header-text > h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: var(--white);
+}
+
+.header-text > p {
+  width: 90%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  padding: 1.5rem 0 3rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--btn-active);
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--white);
+  padding: 0.8rem 2rem 0.8rem 1.3rem;
+  transform: translate(0);
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-8px);
+}
+
+.fa-arrow-right {
+  font-size: 16px;
+  margin: 3px 0 0 5px;
+  transition: 0.3s ease;
+}
+
+.header-img {
+  align-self: end;
+  margin-top: 1rem;
+}
+
+.header-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.header-img:hover img {
+  transform: scale(1.05);
 }

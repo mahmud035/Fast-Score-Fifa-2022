@@ -1,0 +1,92 @@
+/** Media Query for Responsiveness */
+@media (max-width: 1120px) {
+  /** Header */
+  .header-text > h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .header-text > p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  /** Header */
+  .header-text {
+    padding-top: 5rem;
+  }
+
+  .header-text > h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .header-text > p {
+    padding: 1.2rem 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /** Header */
+  .header-text {
+    width: 40%;
+  }
+
+  .header-text > h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .header-text > p {
+    width: 100%;
+    padding: 1rem 0 1.5rem;
+  }
+
+  .header-img {
+    width: 60%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  /** Header */
+  header {
+    min-height: 100vh;
+  }
+
+  .header-content {
+    flex-direction: column;
+    min-height: fit-content;
+  }
+
+  .header-text {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .header-img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: top;
+    padding-bottom: 3rem;
+  }
+
+  .header-img > img {
+    overflow: hidden;
+  }
+
+  .header-text > h1 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .btn {
+    font-size: 17px;
+    padding: 0.7rem 1.8rem 0.7rem 1.2rem;
+  }
+}
