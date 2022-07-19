@@ -61,6 +61,10 @@
   a.all-group-btn {
     flex: 1;
   }
+
+  .view-all-btn {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {
