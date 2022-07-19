@@ -142,4 +142,9 @@
   .btn.btn-blog {
     padding: 0.8rem 2.7rem;
   }
+
+  /* Footer */
+  .footer-text {
+    flex-direction: column;
+  }
 }
