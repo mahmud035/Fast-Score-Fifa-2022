@@ -59,7 +59,7 @@ select {
 
 body {
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Common CSS Classes */
@@ -75,6 +75,7 @@ header {
   height: 100vh;
   background-color: var(--bg-dark);
   border-radius: 0 0 30px 30px;
+  overflow: hidden;
 }
 
 .header-content {
