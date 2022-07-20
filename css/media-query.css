@@ -70,7 +70,7 @@
 @media (max-width: 768px) {
   /** Header */
   .header-text {
-    width: 40%;
+    width: 50%;
   }
 
   .header-text > h1 {
@@ -84,7 +84,7 @@
   }
 
   .header-img {
-    width: 60%;
+    width: 50%;
     height: 100%;
   }
 }
@@ -93,7 +93,8 @@
   /** Header */
   header {
     min-height: 100vh;
-    border-radius: 0 0 15px 15px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 2rem;
   }
 
   .header-content {
@@ -102,7 +103,7 @@
   }
 
   .header-text {
-    width: 100%;
+    width: 90%;
     height: 30%;
     text-align: center;
     padding: 2rem 0;
@@ -141,6 +142,10 @@
 
   .btn.btn-blog {
     padding: 0.8rem 2.7rem;
+  }
+
+  .view-all-btn {
+    display: none;
   }
 
   /* Footer */
