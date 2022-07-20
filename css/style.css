@@ -175,8 +175,9 @@ header {
   justify-content: space-evenly;
 }
 
-.side-bar a.upcoming-btn,
-.side-bar a.all-group-btn {
+a.upcoming-btn,
+a.all-group-btn,
+a.match-page-blog-btn {
   color: var(--text-black);
   background-color: var(--white);
   font-weight: 500;
@@ -300,4 +301,45 @@ footer {
 
 .social-icon a:hover {
   background-color: var(--btn-active);
+}
+
+/** upcoming Match Page CSS */
+.btn.upcoming-btn.current {
+  background-color: var(--btn-active);
+  color: var(--white);
+}
+
+.match-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1.5rem;
+}
+
+.match-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 3rem 1.5rem;
+}
+
+.match-card .flags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.match-card > h3 {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--text-black);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.match-card > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4d4d4d;
 }

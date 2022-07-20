@@ -46,7 +46,8 @@
   }
 
   .side-bar a.upcoming-btn,
-  .side-bar a.all-group-btn {
+  .side-bar a.all-group-btn,
+  a.match-page-blog-btn {
     display: block;
     background-color: var(--white);
     border: 1px solid #e8e8e8;
