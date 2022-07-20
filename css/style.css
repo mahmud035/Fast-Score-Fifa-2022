@@ -309,7 +309,8 @@ footer {
 }
 
 /** upcoming Match Page CSS */
-.btn.upcoming-btn.current {
+.btn.upcoming-btn.current,
+.btn.all-group-btn.current {
   background-color: var(--btn-active);
   color: var(--white);
 }
@@ -349,3 +350,5 @@ footer {
   text-align: center;
   color: #4d4d4d;
 }
+
+/** All Group Page CSS */
