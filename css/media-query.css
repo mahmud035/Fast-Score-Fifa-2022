@@ -62,7 +62,10 @@
   a.all-group-btn {
     flex: 1;
   }
+}
 
+@media (max-width: 992px) {
+  /** View All Button */
   .view-all-btn {
     display: block;
   }
